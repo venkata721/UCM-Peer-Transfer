@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> International Peer Transfer System </title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="scripts/styles.css">
+  <script type="text/javascript" src="scripts/script.js"></script>
+ </head>
+ <body id="home" background="scripts/images/peerBg1.jpg">
+	<img src="scripts/images/peerTr.jpg" width="1200" height="150" />
+	<div id="nav-wrapper">
+		<ul id="nav">
+			<li><a id="home" href="HomePage.html">Home Page</a></li>
+			<li><a id="registration" href="RegistrationPage.html">Registration</a></li>
+			<li><a id="aboutUs" href="AboutUsPage.html">About Us</a></li>
+			<li><a id="careers" href="CareersPage.html">Careers</a></li>
+			<li><a id="contact" href="ContactUsPage.html">Contact Us</a></li>
+		</ul>
+	</div>
+	<div id="Settings">
+		<table id="innerTable">
+			<tr>
+				<td id="col1">
+					<p id="required">
+					    <h1 id="peer"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WELCOME TO PEER TRANFER SYSTEM</b></h1><br>
+					</p>
+					<div class="htmlContent">
+					<i><b>"</b></i>&nbsp;Helping
+					<b>hundreds of thousands </b>
+					of payers from
+					<br/><b>different countries and territories</b>
+					to make international payments<i><b>"</b></i>
+					</div>
+				</td>
+				<td id="col2">
+					<form id="loginForm" autocomplete="off">
+						<h1><b>Login Details</b></h1>
+						<hr/>
+							<p> 
+								<label for="username" class="uname"> Username </label>
+								<input id="username" name="username" type="text" placeholder="Email Format abc@abc.com"/>
+								<br/>
+								<span id="usernameErr" class="err"></span>
+
+							</p>
+							<p> 
+								<label for="password" class="youpasswd">Password </label>
+								<input id="password" name="password" type="password" placeholder="Must Contain a-z,A-Z,0-9. No Special Chars" /> 
+								<br/><span id="passwordErr" class="err"></span>
+
+							</p>
+							<!-- <br/><span id="mainErr1" class="err" style="display:none;"> * Invalid Username and password</span>
+								<span id="mainErr2" class="err" style="display:none;" > * That user does not exist</span>	-->
+							<table style="width:340px">
+								<tr>
+									<td id="buttonCol1">
+										<p class="login button" vertical-align="top">
+											<input id="login" type="button" value="Login"/> 
+										</p>
+									</td>
+								</tr>
+							</table>
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+ </body>
+</html>

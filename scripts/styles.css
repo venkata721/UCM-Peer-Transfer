@@ -1,0 +1,318 @@
+td{
+	vertical-align:left;
+	text-align:left;
+	padding: 5px;
+}
+
+td#buttonCol1{
+	vertical-align:top;
+	text-align:right;
+}
+td#col1{
+	width:20%;
+}
+td#col2{
+	width:60%;
+}
+
+#regTable{
+	background-color: #D5DBDB;
+		width:80%;
+
+}
+
+.memheadings
+{
+	color: red;
+	font-family: Garamond;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	
+}
+
+#portion1{
+border: 2px solid black;
+width:50%;
+height:600px;
+border-radius: 5px;
+font-weight: bold;
+font-size: 18px;
+font-style: bold;	
+font-family: Garamond;
+float:left;
+
+}
+
+#portion2{
+border: 2px solid black;
+width:49.3%;
+height:300px;
+border-radius: 5px;
+font-weight: bold;
+font-size: 18px;
+font-style: bold;	
+font-family: Garamond;
+float:right;
+
+}
+
+#portion3{
+border: 2px solid black;
+width:49.3%;
+height:300px;
+border-radius: 5px;
+font-weight: bold;
+font-size: 18px;
+font-style: bold;	
+font-family: Garamond;
+float:left;
+}
+
+table#innerTable{
+	width:1010px;
+	height:300px;
+	border:#00000;
+	align: left;
+}
+#home{
+	padding-left: 120px;
+	padding-right: 200px;
+}
+body{
+	background-position: absolute;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+
+.logout{
+	position:absolute;
+	top: 170px;
+	right:195px;
+	padding: 3px;
+	margin-top:-3px;
+	margin-right:-1px;
+	border: 1px solid white;
+	border-radius: 8px;
+	background-color: black;
+	color: white;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: Garamond;
+	font-size:20px;
+	
+}
+.anotherReq
+{
+	border: 1px solid white;
+	border-radius: 8px;
+	background-color: black;
+	color: white;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: Garamond;
+	font-size:20px;
+	
+	
+}
+#nav-wrapper {
+	width:1200px;
+	padding:1px 0;
+	background:red;
+}
+
+ul#nav {
+	font-family: Garamond;
+	font-size:20px;
+	list-style:none;
+	margin:0 auto;
+	padding:0;
+	overflow: auto;
+	
+}
+
+ul#nav li {
+	display:inline;
+}
+
+ul#nav li a {
+	text-decoration:none;
+	display: block;
+	padding:5px 21px;
+	background:red;
+	color:black;
+	float:left;
+	width: 194.5px;	
+	font-weight: bold;
+	text-align:center;
+	border-top:2px solid white;
+	border-right:2px solid white;
+	border-bottom:2px solid white;
+	border-left:2px solid white;
+}
+
+
+
+ul#nav li a:focus {
+	background:white;
+	color:black;
+	border-top:2px solid #01A293;
+	border-right:2px solid #01A293;
+	border-bottom:2px solid #01A293;
+	border-left:2px solid #01A293;
+}
+h1{
+	margin:0;
+	padding:0;
+	font-family: Garamond;
+	text-align: center;
+	font-size: 25px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: black;
+    padding: 0px 0px 5px 0px;
+}
+h1#peer{
+	
+	font-size: 35px;
+	
+}
+
+label{
+		font-family: Garamond;
+		color: brown;
+		font-weight: bold;
+		font-size: 18px;
+		font-style: bold;	
+
+}
+
+#username{
+	border: 1px solid black;
+	background-image:url(images/user_logo.png);
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	padding-left : 35px;
+    outline:0; 
+    height:26px; 
+    width: 300px;
+}
+#password { 
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image:url(images/pass_logo.png);
+    background-repeat: no-repeat;
+	padding-left : 35px;
+    outline:0; 
+    height:26px; 
+    width: 300px; 
+ }
+ 
+ p.button input{
+	width: 30%;
+	cursor: pointer;	
+	background: Orange;
+	padding: 8px 5px;
+	font-family: Garamond;
+	color: black;
+	font-size: 18px;
+		font-weight: bold;
+	border: 1px solid rgb(28, 108, 122);	
+	margin-bottom: 10px;
+	border-radius: 10px;	
+}
+
+#logout
+{
+	
+	cursor: pointer;	
+	background: #009688;
+	padding: 8px 5px;
+	font-family: Garamond;
+	color: #fff;
+	font-size: 18px;	
+	font-style: bold;	
+	border: 1px solid rgb(28, 108, 122);	
+	margin-bottom: 10px;
+border-radius: 10px;	
+}
+
+
+p.button input:hover{
+	background: white;
+}
+
+#Settings{
+	vertical-align: left;
+	text-align: left;
+}
+
+.htmlContent
+{
+	font-family: Garamond;
+	width:470px;
+	font-size: 24px;
+	font-style: normal;
+	border: 2px solid brown;  
+    border-radius: 20px; 
+    background-color: white;
+	text-align: center;
+	margin-left: 100px;
+	
+}
+
+.textbox { 
+	border: 1px solid #85C1E9;  
+    outline:0; 
+    height:30px; 
+    width: 400px; 
+}
+.textarea{
+	border: 1px solid #009688;  
+    border-radius: 5px; 
+    outline:0;
+	width: 400px;
+	height: 80px;
+}
+
+.fieldset{
+	border: 1px solid #009688;  
+    border-radius: 5px; 
+    outline:0;
+	width: 370px;
+	height: 120px;
+}
+
+.err
+{
+	font-family: Garamond;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: red;
+}
+#required,#anotherIDrequired {
+	font-family: Garamond;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+table#tableRequired{
+	border-collapse: collapse;
+	border: 1px solid #009688;
+	align: center;
+} 
+ 
+ #loginForm
+ {
+	background-color: lightyellow;
+	border: 2px solid black; 
+	border-radius:30px; 
+ }
+ 
